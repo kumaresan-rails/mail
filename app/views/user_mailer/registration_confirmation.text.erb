@@ -1,0 +1,15 @@
+
+ Welcome to Padayi.com, <%= @user.name %>,
+===============================================
+
+You have successfully Registerd with Padayi.com.
+Your username is: <%= @user.name %>
+Your email is: <%= @user.email %>
+
+Thanyou for Registerd with us!
+
+Edit profile: <%= edit_user_url(@user, :host =>"localhost:3000") %>
+
+To login to this site, just follow the link: <%= @url %>
+
+Thanks for joining and have a great day!

@@ -1,0 +1,13 @@
+<p>Welcome to Padayi.com, <%= @user.name %>,</p>
+===============================================
+
+<p>You have successfully Registerd with Padayi.com.</p>
+ <p>Your username is: <%= @user.name %></p>
+ <p>Your email is: <%= @user.email %></p>
+  <p>Thank you for Registering </p>
+
+<p>Edit profile: <%= link_to "Edit profile", edit_user_url(@user, :host =>"localhost:3000") %></p>
+
+<p>To login to this site, just follow the link: <%= @url %></p>
+
+<p>Thanks for joining and have a great day!</p>
